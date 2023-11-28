@@ -1,0 +1,129 @@
+* {
+  z-index: 3;
+}
+
+.sectionmain {
+  background-color: black;
+  /* background-color: var(--background-color); */
+}
+
+.sectionmain_main {
+  margin-left: 370px;
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.sectionmain_main-leftblock > a {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(93deg, #ff3d00 0.14%, #fcb045 80.21%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sectionmain_main-leftblock_allpunkts {
+  margin-top: 36px;
+}
+
+.sectionmain_main-leftblock_punkt {
+  display: flex;
+}
+
+.sectionmain_main-leftblock_punkt > p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.sectionmain_main-leftblock_allpunkts > button {
+  background-color: var(--dark-blue);
+  border: none;
+  width: 220px;
+  height: 70px;
+  color: white;
+  border-radius: 31px;
+  margin-top: 50px;
+}
+
+/* .sectionmain_main-leftblock_allpunkts > button:hover {
+  cursor: pointer;
+} */
+
+.last {
+  display: flex !important;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.start {
+  margin-bottom: 30px;
+}
+
+.sectionmain_main-rightblock img {
+  width: 541px;
+  height: 457px;
+  transform: scaleX(-1);
+  margin-left: 197px;
+  padding-bottom: 79px;
+}
+
+.allnumbers_punkts > a {
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fff -10%, #b8b8b8 126.32%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.allnumbers_punkts > p {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: regular;
+}
+
+.sectionmain_main-leftblock_allpunkts button > a {
+  text-decoration: none;
+}
+
+.sectionmain_main-leftblock_allpunkts button > a:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .sectionmain_main {
+    margin-left: 20px;
+  }
+
+  .sectionmain_main-rightblock {
+    display: none;
+  }
+
+  .sectionmain_main-leftblock > a {
+    font-size: 20px;
+  }
+
+  .sectionmain_main-leftblock_allpunkts {
+    margin-top: 20px;
+  }
+
+  .start {
+    margin-bottom: 15px;
+  }
+
+  .last {
+    margin-top: 15px;
+  }
+
+  .sectionmain_main-leftblock_punkt > p {
+    font-size: 10px;
+  }
+
+  .sectionmain_main-leftblock_allpunkts > button {
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+  }
+}

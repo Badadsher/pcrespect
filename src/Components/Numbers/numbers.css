@@ -1,0 +1,42 @@
+.allnumbers {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  justify-content: center;
+  background-color: black;
+}
+
+.allnumbers_punkts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.allnumbers_punkts p {
+  color: white;
+}
+
+.numbers {
+  /* background-color: var(--background-color); */
+}
+
+@media screen and (max-width: 767px) {
+  .allnumbers {
+    padding-top: 30px;
+    gap: 26px;
+  }
+
+  .allnumbers_punkts > a {
+    font-size: 30px;
+  }
+
+  .allnumbers_punkts > p {
+    font-size: 10px;
+  }
+
+  .allnumbers_punkts {
+    margin-top: 40px;
+  }
+}

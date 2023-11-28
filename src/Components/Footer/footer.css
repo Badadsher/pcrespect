@@ -1,0 +1,17 @@
+.Footer_window {
+  background-color: #0b0b0b;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 52px;
+}
+
+.Footer_window a {
+  font-size: 10px;
+}
+
+.Footer_window {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

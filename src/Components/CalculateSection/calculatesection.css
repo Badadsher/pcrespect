@@ -1,0 +1,219 @@
+* {
+  z-index: 3;
+}
+
+.calculatesection_frame {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.calculatesection {
+}
+
+.calculatesection_frame-window {
+  width: 1180px;
+  border-radius: 87px;
+  height: 707px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid blue;
+  box-shadow: inset 0px 0px 10px 0px rgb(0, 34, 128),
+    0px 0px 60px 40px rgb(0, 49, 128);
+  margin-bottom: 91px;
+}
+.calculatesection_frame-window p {
+  color: black;
+}
+
+.calculatesection_frame-window a {
+  color: black;
+}
+
+.top > a {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.top {
+  margin-top: 70px;
+  margin-bottom: 58px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.choise {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.choise {
+  margin-top: 36px;
+  gap: 200px;
+}
+
+.choise a {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.calculator > a:first-child {
+  margin-top: 75px;
+  font-size: 20px;
+  font-weight: 700;
+  /* margin-bottom: 33px; */
+}
+
+.pricevalue {
+  margin-bottom: 10px;
+}
+.calculator > a:last-child {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.argument input {
+  width: 280px;
+  height: 85px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.calculator input {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockcalc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.blockcalc:hover {
+  cursor: pointer;
+}
+
+.blockcalc img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.lastwind {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.argument {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.argument button {
+  width: 280px;
+  height: 86px;
+  background: #0015ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.argument button:hover {
+  cursor: pointer;
+}
+
+.pricevalue {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0015ff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .calculatesection_frame-window {
+    width: 370px;
+    height: 690px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 34, 128, 0.459),
+      0px 0px 60px 10px rgb(0, 49, 128);
+  }
+
+  .calculatesection_frame-window a {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .top {
+    margin-bottom: 28px;
+  }
+
+  .choise {
+    gap: 50px;
+  }
+
+  .calculator input {
+    max-width: 300px;
+  }
+
+  .calculator > a:last-child {
+    font-size: 15px;
+  }
+  .calculatesection_frame-window p {
+    font-size: 10px;
+  }
+
+  .lastwind input {
+    margin-left: 10px;
+  }
+
+  .argument {
+    flex-direction: column;
+  }
+
+  .argument input {
+    width: 180px;
+    height: 45px;
+  }
+
+  .argument button {
+    width: 180px;
+    height: 45px;
+  }
+
+  .calculator > a:first-child {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+}
