@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-.ContactsMenu_window-left_images img:last-child {
+.vk img {
   width: 146px;
   height: 157px;
 }
@@ -95,8 +95,8 @@
   }
 
   .ContactsMenu_window-left_images img:last-child {
-    width: 76px;
-    height: 77px;
+    width: 69px;
+    height: 66px;
   }
 
   .ContactsMenu_window-left {
@@ -133,5 +133,14 @@
 
   .ContactsMenu_window-right > a:last-child {
     font-size: 15px;
+  }
+
+  .ContactsMenu_window-left_images a {
+    margin-top: 0 !important;
+  }
+
+  .vk img {
+    width: 76px !important;
+    height: 77px !important;
   }
 }

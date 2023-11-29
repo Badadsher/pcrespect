@@ -4,6 +4,7 @@ import TG from "../assets/Social/tg.png";
 import VK from "../assets/Social/vk.png";
 import Whatsapp from "../assets/Social/whats.png";
 import BottomGradi from "../assets/FX/back.png";
+import Insta from "../assets/Social/insta.png";
 const ContactsMenu = () => {
   return (
     <div className="ContactsMenu">
@@ -14,9 +15,18 @@ const ContactsMenu = () => {
           <a>+7 926 091 71-71</a>
 
           <div className="ContactsMenu_window-left_images">
-            <img src={TG}></img>
-            <img src={Whatsapp}></img>
-            <img src={VK}></img>
+            <a href="">
+              {" "}
+              <img src={TG}></img>
+            </a>
+
+            <a href="https://wa.me/79260917171">
+              <img src={Whatsapp}></img>
+            </a>
+
+            <a href="https://instagram.com/merenkov_nikolai?utm_source=qr&igshid=OGU0MmVlOWVjOQ==">
+              <img src={Insta}></img>
+            </a>
           </div>
         </div>
 
