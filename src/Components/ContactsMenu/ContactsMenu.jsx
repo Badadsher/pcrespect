@@ -15,7 +15,7 @@ const ContactsMenu = () => {
           <a>+7 926 091 71-71</a>
 
           <div className="ContactsMenu_window-left_images">
-            <a href="">
+            <a href="https://t.me/merenkovn">
               {" "}
               <img src={TG}></img>
             </a>

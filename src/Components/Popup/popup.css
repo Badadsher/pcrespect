@@ -30,8 +30,8 @@
 
 .popup_window-prices {
   display: flex;
-  align-items: center;
-  text-align: center;
+
+  text-align: left;
   justify-content: center;
   padding: 20px;
   flex-direction: column;
@@ -40,6 +40,7 @@
 
 .popup_window-prices a {
   color: black;
+  text-align: left;
 }
 
 .popup_window-prices a span {

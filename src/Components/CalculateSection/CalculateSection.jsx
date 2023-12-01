@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "../CalculateSection/calculatesection.css";
 import Info from "../assets/FX/info.svg";
 import Popup from "../Popup/Popup";
+import AllDone from "../AllDone/AllDone";
 const CalculateSection = () => {
   let price;
   const [value, setNumber] = useState(150000);
   const [isActiveBtn, setActive] = useState(false);
+  const [isActiveBtnShop, setActiveShop] = useState(false);
   const [startPrice, setPrice] = useState(0);
   const checkerPrice = () => {
     if (value <= 100000) {
@@ -25,8 +27,9 @@ const CalculateSection = () => {
   const [email, setEmailValue] = useState("");
   const [choiseUser, setChoise] = useState("");
   const handleButtonClick = () => {
+    setActiveShop(true);
     // Отправка данных на сервер
-    fetch("http://localhost:8080/pcrespect/checker.php", {
+    fetch("http://www.pcrespect.ru/php/checker.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -66,7 +69,7 @@ const CalculateSection = () => {
 
   return (
     <div className="calculatesection" id="calculate">
-      <div className="calculatesection_frame">
+      <div className="calculatesection_frame" id="calculateSection">
         <div className="calculatesection_frame-window">
           <div className="top">
             <a>Рассчитать стоимость сборки/апгрейда</a>
@@ -98,8 +101,19 @@ const CalculateSection = () => {
               ></input>
               <a>Сборка</a>
             </div>
-          </div>
 
+            <div className="notebook">
+              <input
+                type="radio"
+                name="choise"
+                value="sborka"
+                onClick={() => {
+                  setChoise("Ремонт ноутбуков");
+                }}
+              ></input>
+              <a>Ремонт ноутбуков</a>
+            </div>
+          </div>
           <div className="calculator">
             <a>Укажите бюджет:</a>
             <a className="pricevalue">{value}</a>
@@ -143,6 +157,7 @@ const CalculateSection = () => {
         </div>
       </div>
       <Popup active={isActiveBtn} setActive={setActive} />
+      <AllDone active={isActiveBtnShop} setActive={setActiveShop} />
     </div>
   );
 };

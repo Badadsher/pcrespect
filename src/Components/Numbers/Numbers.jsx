@@ -17,7 +17,7 @@ const Numbers = () => {
         </div>
 
         <div className="allnumbers_punkts">
-          <a>5</a>
+          <a>19</a>
 
           <p>лет опыта</p>
         </div>

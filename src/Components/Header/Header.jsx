@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header_info-main">
           <a href="/#sectionMain">Информация</a>
           <a href="/#Recommend">Обо мне</a>
-          <a href="/#сalculate">Рассчёт цен</a>
+          <a href="/#calculateSection">Рассчёт цен</a>
           <a href="/#Examples">Фото-примеры</a>
         </div>
 
