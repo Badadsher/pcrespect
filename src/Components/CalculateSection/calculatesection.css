@@ -151,6 +151,11 @@
   border: none;
 }
 
+.blockcalc > p {
+  font-weight: 700 !important;
+  color: black;
+}
+
 .argument button:hover {
   cursor: pointer;
 }
