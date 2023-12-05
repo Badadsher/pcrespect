@@ -29,7 +29,7 @@ const CalculateSection = () => {
   const handleButtonClick = () => {
     setActiveShop(true);
     // Отправка данных на сервер
-    fetch("http://www.pcrespect.ru/php/checker.php", {
+    fetch("https://www.pcrespect.ru/php/checker.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
