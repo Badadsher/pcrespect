@@ -44,7 +44,3 @@ npm install
 # 4. Запусти проект
 npm run dev
 ```
-
-👤 Разработчик
-Автор: Badadsher
-Сайт: pcrespect.netlify.app
