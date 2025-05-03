@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🖥️ PCRespect — Сайт-визитка услуг по сборке ПК ⚙️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**PCRespect** — это современный одностраничный сайт, рассказывающий о профессиональных услугах по сборке и подбору ПК под задачи клиента.  
+Создан с любовью к производительности и стилю — **на React** 💻🚀
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-blue?logo=react)
+![Netlify](https://img.shields.io/badge/Deployed%20On-Netlify-00C7B7?logo=netlify)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Демо
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 Онлайн: [pcrespect.netlify.app](https://pcrespect.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Особенности
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🧰 **Услуги сборки** — описание всех этапов: от подбора до запуска  
+- 🎯 **Чёткая структура** — удобная навигация по секциям  
+- 📱 **Полная адаптивность** — идеально смотрится на телефонах, планшетах и ПК  
+- 🧠 **Простой и понятный UI** — акцент на информацию и удобство  
+- 💌 **Контактная форма** — для быстрой связи и оформления запроса
+- 🤖 Для сайта был создан телеграмм бот,который отпаравляет владельцу уведомление при оставленной заявке от лица пользователя
+---
 
-### `npm run build`
+## 🖼️ Скриншоты
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Скриншот 1](Screenshots/screen1.jpg)
+![Скриншот 2](Screenshots/screen2.png)
+![Скриншот 2](Screenshots/screen3.png)
+## 🚀 Запуск проекта
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# 1. Клонируй репозиторий
+git clone https://github.com/Badadsher/pcrespect
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 2. Перейди в директорию
+cd pcrespect
 
-### `npm run eject`
+# 3. Установи зависимости
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 4. Запусти проект
+npm run dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 Разработчик
+Автор: Badadsher
+Сайт: pcrespect.netlify.app
