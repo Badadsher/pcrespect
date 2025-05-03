@@ -26,7 +26,7 @@
 
 ## 🖼️ Скриншоты
 
-![Скриншот 1](Screenshots/screen1.jpg)
+![Скриншот 1](Screenshots/Screen1.jpg)
 ![Скриншот 2](Screenshots/screen2.png)
 ![Скриншот 2](Screenshots/screen3.png)
 ## 🚀 Запуск проекта
