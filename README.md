@@ -5,7 +5,7 @@
 
 ![React](https://img.shields.io/badge/React-blue?logo=react)
 ![Netlify](https://img.shields.io/badge/Deployed%20On-Netlify-00C7B7?logo=netlify)
-
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
 ---
 
 ## 🌐 Демо
