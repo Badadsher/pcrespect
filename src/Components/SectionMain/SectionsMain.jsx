@@ -3,7 +3,6 @@ import "../SectionMain/sectionmain.css";
 import Dot from "../assets/logos/dot.svg";
 import PC from "../assets/Details/pngwing.com.png";
 import { useRef } from "react";
-import Calculate from "../CalculateSection/CalculateSection";
 
 const SectionsMain = () => {
   return (

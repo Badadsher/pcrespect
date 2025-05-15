@@ -1,9 +1,7 @@
 import React from "react";
 import "../ContactsMenu/contactsmenu.css";
 import TG from "../assets/Social/tg.png";
-import VK from "../assets/Social/vk.png";
 import Whatsapp from "../assets/Social/whats.png";
-import BottomGradi from "../assets/FX/back.png";
 import Insta from "../assets/Social/insta.png";
 const ContactsMenu = () => {
   return (

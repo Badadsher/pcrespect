@@ -1,7 +1,6 @@
 import React from "react";
 import "../Popup/popup.css";
 import { useState } from "react";
-import Close from "../assets/close.svg";
 const Popup = ({ active, setActive }) => {
   return (
     <div className={active ? "popup active" : "popup"}>

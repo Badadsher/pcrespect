@@ -4,11 +4,14 @@ import Info from "../assets/FX/info.svg";
 import Popup from "../Popup/Popup";
 import AllDone from "../AllDone/AllDone";
 const CalculateSection = () => {
-  let price;
   const [value, setNumber] = useState(150000);
   const [isActiveBtn, setActive] = useState(false);
   const [isActiveBtnShop, setActiveShop] = useState(false);
   const [startPrice, setPrice] = useState(0);
+  const [number, setNumberPhone] = useState("");
+  const [email, setEmailValue] = useState("");
+  const [choiseUser, setChoise] = useState("");
+
   const checkerPrice = () => {
     if (value <= 100000) {
       setPrice(4000);
@@ -23,12 +26,8 @@ const CalculateSection = () => {
     }
   };
 
-  const [number, setNumberPhone] = useState("");
-  const [email, setEmailValue] = useState("");
-  const [choiseUser, setChoise] = useState("");
   const handleButtonClick = () => {
     setActiveShop(true);
-    // Отправка данных на сервер
     fetch("https://pcrespect.ru/php/checker.php", {
       mode: "no-cors",
       method: "POST",
@@ -42,14 +41,12 @@ const CalculateSection = () => {
         option: choiseUser,
       }),
     })
-      .then((response) => response.text()) // Используем text() вместо json()
+      .then((response) => response.text())
       .then((data) => {
         try {
-          // Попытаемся разобрать данные как JSON
           const jsonData = JSON.parse(data);
           console.log("Ответ от сервера:", jsonData);
         } catch (error) {
-          // Если разбор JSON не удался, выведем данные как текст
           console.error("Ошибка при разборе JSON:", error);
           console.log("Текст ответа:", data);
         }

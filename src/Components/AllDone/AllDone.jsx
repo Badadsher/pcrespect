@@ -1,6 +1,3 @@
-import { useState } from "react";
-import Close from "../assets/close.svg";
-import React from "react";
 import "../AllDone/alldone.css";
 
 const AllDone = ({ active, setActive }) => {
